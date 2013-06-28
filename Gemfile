@@ -26,6 +26,7 @@ gem 'better_errors'
 gem 'pry-debugger'
 gem 'binding_of_caller'
 gem 'meta_request'
+gem 'soundcloud'
 
 end
 
