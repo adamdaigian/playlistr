@@ -1,0 +1,17 @@
+%h1 Playlistr
+
+%h2 All Playlists
+
+%ul
+  - @playlist.each do |playlist|
+  %li= link_to playlist.title, playlist_path(playlist.id)
+
+%h2 New Playlists
+= link_to "New Playlist", new_playlist_path
+
+
+%h2
+= link_to "New Search", new_search_path
+
+
+

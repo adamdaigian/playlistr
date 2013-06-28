@@ -18,7 +18,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-end
+
 
 gem 'jquery-rails'
 gem 'haml-rails'
@@ -26,6 +26,8 @@ gem 'better_errors'
 gem 'pry-debugger'
 gem 'binding_of_caller'
 gem 'meta_request'
+
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
